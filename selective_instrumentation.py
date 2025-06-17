@@ -101,7 +101,7 @@ def selective_instrumentation(build_dir, target_files):
     print(f"\n[i] Result: Modified {modified_count} build files")
 
 parser = argparse.ArgumentParser(description='V8 Selective Instrumentation Tool')
-parser.add_argument('build_dir', help='Build directory path (e.g., out/Release)')
+parser.add_argument('build_dir', help='Build directory path (e.g., out/fuzzbuild)')
 parser.add_argument('--targets', nargs='+', required=True, 
                     help='Target source files (e.g., v8/src/compiler/node-properties.cc)')
 
