@@ -1,12 +1,12 @@
 # V8 Fuzzing Selective Instrumentation
 
-A tool for enabling selective instrumentation in the V8 JavaScript engine to support fuzz testing. This helps focus fuzzing on specific source files.
+This tool lets you enable selective instrumentation in the V8 JavaScript engine to focus fuzz testing on specific files.
 
 ---
 
 ## Requirements
-- depot_tools installed
-- A local clone of the Chromium source code
+- Installed depot_tools
+- Local Chromium source code clone
 
 ---
 
